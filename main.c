@@ -10,7 +10,6 @@ void printLessonInfo(Lesson *);
 void restoreChronology(Lesson *, unsigned int, unsigned int, unsigned int);
 
 int main(int argc, char **argv) {
-	unitTest();
 	unsigned int count, courseNumber, groupNumber;
 	input(&count, &courseNumber, &groupNumber);
 	Lesson *lessons = (Lesson *) malloc(count * sizeof(Lesson));
