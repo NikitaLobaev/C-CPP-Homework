@@ -29,8 +29,6 @@ char *getLessonType(Lesson *);
 
 int compareLessons(const void *, const void *);
 
-void unitTest();
-
 void logicTest();
 
 #endif
