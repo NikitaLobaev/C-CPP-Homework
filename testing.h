@@ -6,3 +6,4 @@ void unitTest();
 int testSorting(Lesson *, unsigned int);
 
 #endif //IZ1_TESTING_H
+
