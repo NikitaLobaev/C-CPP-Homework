@@ -22,7 +22,7 @@ script:
   - cmake .. && make
   #  test stage
   - sudo apt-get install -y valgrind cppcheck gcovr lcov
-  - cppcheck --inconclusive --suppress=missingIncludeSystem --check-config --enable=all --language=c ../main.c ../testing.h ../testing.c
-  - valgrind --leak-check=full --leak-resolution=med --vgdb=no --track-origins=yes ./main 100
+  - cppcheck --inconclusive --suppress=missingIncludeSystem --check-config --enable=all --language=c main.c lesson.h lesson.c
+  - valgrind --leak-check=full --leak-resolution=med --vgdb=no --track-origins=yes ./main
   - ctest --output-on-failure
   - gcovr -r ..

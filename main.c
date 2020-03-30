@@ -91,3 +91,4 @@ void restoreChronology(Lesson *lessons, unsigned int count, unsigned int courseN
 		}
 	}
 }
+
