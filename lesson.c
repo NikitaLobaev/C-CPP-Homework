@@ -36,3 +36,4 @@ int compareLessons(const void *x, const void *y) {
 		return lesson1->startTime % 60 - lesson2->startTime % 60;
 	}
 }
+
