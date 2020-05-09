@@ -2,7 +2,7 @@
 #define IZ1_TESTING_H
 #include "lesson.h"
 
-void unitTest();
-int testSorting(Lesson *, unsigned int);
+int my_unit_test();
+int test_sorting(Lesson*, unsigned int);
 
 #endif //IZ1_TESTING_H

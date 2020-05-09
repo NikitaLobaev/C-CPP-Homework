@@ -25,10 +25,8 @@ typedef struct {
 
 char *getDayOfWeek(unsigned int);
 
-char *getLessonType(Lesson *);
+char *getLessonType(Lesson*);
 
-int compareLessons(const void *, const void *);
-
-void logicTest();
+int compareLessons(const void*, const void*);
 
 #endif
